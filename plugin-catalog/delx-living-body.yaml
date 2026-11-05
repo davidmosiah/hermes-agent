@@ -1,0 +1,18 @@
+name: delx-living-body
+title: Delx Living Body
+repo: https://github.com/davidmosiah/delx-living-body
+sha: "d12bddef80c131cdacbd5fee9c05f233c13ffba6"
+subdir: agent-plugin
+description: "Ask one wellness question across every Delx Wellness connector the user has set up (WHOOP, Oura, Garmin, Fitbit, Strava, Apple Health, nutrition, air and more) through the local living-body meta-MCP server. Portable Agent Plugins v1 package (mcp.json + skills/). Disclosure — Runs the `delx-living-body@0.3.7` npm package locally over stdio through `npx` (Node.js 20+ required); the package is downloaded from npm on first start. Data source: no own service: it detects which Delx Wellness connectors are set up on this machine and starts them as child MCP processes through npx at the versions pinned in this release. Child connectors are downloaded from npm on first use at pinned versions and run with the user's privileges. The tool set comes from the pinned npm version, not from this repository's source tree."
+maintainer: davidmosiah
+tier: community
+category: tools
+version: "0.3.7"
+requires_hermes: ">=0.21.5"
+docs_url: https://github.com/davidmosiah/delx-living-body/blob/d12bddef80c131cdacbd5fee9c05f233c13ffba6/agent-plugin/README.md
+platforms: []
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
