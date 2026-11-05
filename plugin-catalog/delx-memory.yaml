@@ -1,0 +1,18 @@
+name: delx-memory
+title: Delx Memory
+repo: https://github.com/davidmosiah/delx-memory
+sha: "82c02a5aafbcf0211333ba02d87451c179120150"
+subdir: agent-plugin
+description: "Keep durable, searchable memory across sessions and agents with the local delx-memory MCP server (SQLite on this machine). Portable Agent Plugins v1 package (mcp.json + skills/). Disclosure — Runs the `delx-memory@0.4.1` npm package locally over stdio through `npx` (Node.js 20+ required); the package is downloaded from npm on first start. Data source: no network service: a local SQLite database at ~/.delx-memory/db.sqlite (override with DELX_MEMORY_PATH). Tools that change state: memory_set / memory_set_batch; memory_forget, memory_forget_by_tag (local rows only). Never store secrets, credentials or other people's personal data in memory. Any agent on this machine that runs delx-memory reads the same database. The tool set comes from the pinned npm version, not from this repository's source tree."
+maintainer: davidmosiah
+tier: community
+category: memory
+version: "0.4.1"
+requires_hermes: ">=0.21.5"
+docs_url: https://github.com/davidmosiah/delx-memory/blob/82c02a5aafbcf0211333ba02d87451c179120150/agent-plugin/README.md
+platforms: []
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
