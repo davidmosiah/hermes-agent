@@ -1,0 +1,19 @@
+name: samsung-health-mcp
+title: Samsung Health
+repo: https://github.com/davidmosiah/samsung-health-mcp
+sha: "e23916be8fc01e24b4a9380b5b832a0cadff3883"
+subdir: agent-plugin
+description: "Read the user's Samsung Health personal-data export (steps, exercise, heart rate, sleep) through the local samsung-health MCP server. Portable Agent Plugins v1 package (mcp.json + skills/). Disclosure — Runs the `samsung-health-mcp-unofficial@0.8.0` npm package locally over stdio through `npx` (Node.js 20+ required); the package is downloaded from npm on first start. Data source: no network service: it parses the user's own Samsung Health personal-data CSV/ZIP export on disk. Tools that change state: samsung_health_profile_update (local profile only); samsung_health_reimport (re-reads the local export); samsung_health_clear_incremental_cache (clears the local parsed cache). No live sync: data is as fresh as the last export the user imported. The tool set comes from the pinned npm version, not from this repository's source tree."
+maintainer: davidmosiah
+tier: community
+category: tools
+version: "0.8.0"
+requires_hermes: ">=0.21.5"
+docs_url: https://github.com/davidmosiah/samsung-health-mcp/blob/e23916be8fc01e24b4a9380b5b832a0cadff3883/agent-plugin/README.md
+image: https://raw.githubusercontent.com/davidmosiah/samsung-health-mcp/e23916be8fc01e24b4a9380b5b832a0cadff3883/assets/banner.png
+platforms: []
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
