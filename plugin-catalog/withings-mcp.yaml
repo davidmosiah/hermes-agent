@@ -1,16 +1,16 @@
 name: withings-mcp
 title: Withings
 repo: https://github.com/davidmosiah/withings-mcp
-sha: "c1a10888a0045b10a1b83656c0c8b3cbcc86bc94"
+sha: "9e9deecbe3f00f5c92f74f02e7491b24c8db50bf"
 subdir: agent-plugin
-description: "Read the user's Withings weight, body composition, blood pressure, sleep and activity through the local withings MCP server. Portable Agent Plugins v1 package (mcp.json + skills/). Disclosure — Runs the `withings-mcp-unofficial@0.5.5` npm package locally over stdio through `npx` (Node.js 20+ required); the package is downloaded from npm on first start. Data source: the official Withings Public API. Credentials and OAuth tokens are created by the connector's own `setup`/`auth` commands in the user's terminal and stay on the machine (`~/.withings-mcp/`); the plugin declares no environment variables and reads no Hermes credentials. Tools that change state: withings_profile_update (local profile only); withings_exchange_code (stores OAuth tokens locally); withings_revoke_access (revokes the Withings grant and deletes local tokens). The tool set comes from the pinned npm version, not from this repository's source tree."
+description: "Read the user's Withings weight, body composition, blood pressure, sleep and activity through the local withings MCP server. Portable Agent Plugins v1 package (mcp.json + skills/). Disclosure — Runs the `withings-mcp-unofficial@0.6.0` npm package locally over stdio through `npx` (Node.js 20+ required); the package is downloaded from npm on first start. Data source: the official Withings Public API. Credentials and OAuth tokens are created by the connector's own `setup`/`auth` commands in the user's terminal and stay on the machine (`~/.withings-mcp/`); the plugin declares no environment variables and reads no Hermes credentials. Tools that change state: withings_profile_update (local profile only); withings_exchange_code (stores OAuth tokens locally); withings_revoke_access (revokes the Withings grant and deletes local tokens). The tool set comes from the pinned npm version, not from this repository's source tree. Upgrade and rollback require stopping every Withings instance sharing the token file and upgrading all clients together; old and new token locks do not coordinate. Legacy tokens without userid require reauthorization before refresh or multi-page reads."
 maintainer: davidmosiah
 tier: community
 category: tools
-version: "0.5.5"
+version: "0.6.0"
 requires_hermes: ">=0.21.5"
-docs_url: https://github.com/davidmosiah/withings-mcp/blob/c1a10888a0045b10a1b83656c0c8b3cbcc86bc94/agent-plugin/README.md
-image: https://raw.githubusercontent.com/davidmosiah/withings-mcp/c1a10888a0045b10a1b83656c0c8b3cbcc86bc94/assets/banner.png
+docs_url: https://github.com/davidmosiah/withings-mcp/blob/9e9deecbe3f00f5c92f74f02e7491b24c8db50bf/agent-plugin/README.md
+image: https://raw.githubusercontent.com/davidmosiah/withings-mcp/9e9deecbe3f00f5c92f74f02e7491b24c8db50bf/assets/banner.png
 platforms: []
 capabilities:
   provides_tools: []
