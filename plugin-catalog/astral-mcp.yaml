@@ -1,0 +1,19 @@
+name: astral-mcp
+title: Astral
+repo: https://github.com/davidmosiah/astral-mcp
+sha: "da6bee6b313f1cdde1cca544d82d18bf78549307"
+subdir: agent-plugin
+description: "Compute precision-audited astrology with the local astral MCP server: natal charts with houses and aspects, current transits, synastry between two people and moon phase. Portable Agent Plugins v1 package (mcp.json + skills/). Disclosure — Runs the `astral-mcp@0.3.2` npm package locally over stdio through `npx` (Node.js 20+ required); the package is downloaded from npm on first start. Data source: local ephemeris computation (circular-natal-horoscope-js cross-checked with astronomy-engine); astral_search_birthplace looks up place names to coordinates. Present astrology as symbolic and reflective, not as prediction or advice for health, money or legal decisions. Birth date, time and place identify a person: use them only for the chart the user asked for. The tool set comes from the pinned npm version, not from this repository's source tree."
+maintainer: davidmosiah
+tier: community
+category: tools
+version: "0.3.2"
+requires_hermes: ">=0.21.5"
+docs_url: https://github.com/davidmosiah/astral-mcp/blob/da6bee6b313f1cdde1cca544d82d18bf78549307/agent-plugin/README.md
+image: https://raw.githubusercontent.com/davidmosiah/astral-mcp/da6bee6b313f1cdde1cca544d82d18bf78549307/docs/assets/og-card.png
+platforms: []
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
