@@ -1,16 +1,16 @@
 name: garmin-mcp
 title: Garmin
 repo: https://github.com/davidmosiah/garmin-mcp
-sha: "48c58426cc4462c771eba1c756e5c394c5eb464f"
+sha: "8376cad114b6fb2086ffb48721abceee56b3b95e"
 subdir: agent-plugin
-description: "Read the user's Garmin Body Battery, HRV status, sleep, stress, training readiness and activities through the local garmin MCP server. Portable Agent Plugins v1 package (mcp.json + skills/). Disclosure — Runs the `garmin-mcp-unofficial@0.7.6` npm package locally over stdio through `npx` (Node.js 20+ required); the package is downloaded from npm on first start. Data source: Garmin Connect in unofficial personal mode (Garmin has no public consumer API): the user logs in locally once and the connector reuses the resulting Garmin Connect tokens. Credentials and OAuth tokens are created by the connector's own `setup`/`auth` commands in the user's terminal and stay on the machine (`~/.garmin-mcp/`); the plugin declares no environment variables and reads no Hermes credentials. Tools that change state: garmin_profile_update (local profile only); garmin_disconnect_local (deletes the local Garmin tokens). Unofficial: Garmin may change or rate-limit the private Connect endpoints this mode relies on. The tool set comes from the pinned npm version, not from this repository's source tree."
+description: "Read the user's Garmin Body Battery, HRV status, sleep, stress, training readiness and activities through the local garmin MCP server. Portable Agent Plugins v1 package (mcp.json + skills/). Disclosure — Runs the `garmin-mcp-unofficial@0.8.0` npm package locally over stdio through `npx` (Node.js 20+ required); the package is downloaded from npm on first start. Data source: Garmin Connect in unofficial personal mode (Garmin has no public consumer API): the user logs in locally once and the connector reuses the resulting Garmin Connect tokens. Credentials and OAuth tokens are created by the connector's own `setup`/`auth` commands in the user's terminal and stay on the machine (`~/.garmin-mcp/`); the plugin declares no environment variables and reads no Hermes credentials. Tools that change state: garmin_profile_update (local profile only); garmin_disconnect_local (deletes the local Garmin tokens). Unofficial: Garmin may change or rate-limit the private Connect endpoints this mode relies on. The tool set comes from the pinned npm version, not from this repository's source tree."
 maintainer: davidmosiah
 tier: community
 category: tools
-version: "0.7.6"
+version: "0.8.0"
 requires_hermes: ">=0.21.5"
-docs_url: https://github.com/davidmosiah/garmin-mcp/blob/48c58426cc4462c771eba1c756e5c394c5eb464f/agent-plugin/README.md
-image: https://raw.githubusercontent.com/davidmosiah/garmin-mcp/48c58426cc4462c771eba1c756e5c394c5eb464f/assets/banner.png
+docs_url: https://github.com/davidmosiah/garmin-mcp/blob/8376cad114b6fb2086ffb48721abceee56b3b95e/agent-plugin/README.md
+image: https://raw.githubusercontent.com/davidmosiah/garmin-mcp/8376cad114b6fb2086ffb48721abceee56b3b95e/assets/banner.png
 platforms: []
 capabilities:
   provides_tools: []
